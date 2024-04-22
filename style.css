@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    background-image: url("papel-de-parede-super-mario-6m-quarto-de-menina.webp");
+    background-position: center;
+    background-size: cover;
+}
+  h1{
+    color: brown;
+  }  
+#myCanvas{
+    background-color: rgb(178, 173, 183);
+    border-radius: 30px;
+    border-width: 5px;
+    border-color:black;
+    color: blue;
+}
+
+
+
+

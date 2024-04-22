@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Linha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p><h1>Canvas linha</h1></p> 
+    <canvas width="600" height="400" id="myCanvas" style="border: 5px solid blue"></canvas>
+    <script type="text/javascript">
+           var canvas=document.getElementById("myCanvas")
+           var ctx=canvas.getContext("2d"); //consultar o canvas
+           ctx.moveTo(50, 250);//iniciar a linha, coordenada inicial
+           ctx.lineTo(350,200);//finaliza a linha, ultima coordenada
+           ctx.stroke();//mostra as linhas
+    </script>
+</body>
+</html>

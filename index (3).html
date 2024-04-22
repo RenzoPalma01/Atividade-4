@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Retangulo</title>
+    <!--Links bootstrap-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p><h1>Canvas Retangulo</h1></p>
+    <canvas width="600" height="400" id="myCanvas" style="border: 5px solid blue"></canvas>
+    <script type="text/javascript">
+       var canvas=document.getElementById("myCanvas")
+       var ctx=canvas.getContext("2d"); // consulte o canvas
+       ctx.fillStyle="#d8dbla"; //cor do retangulo
+       ctx.fillRect(50,50,150,100); //cria o retangulo
+    </script>
+
+</body>
+</html>
